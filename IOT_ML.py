@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score, classification_report
 import numpy as np
 
 def conectar():
-    return oracledb.connect(user="rm553779", password="010205", dsn="oracle.fiap.com.br:1521/orcl")
+    return oracledb.connect(user="xx3x7x", password="0x0x0x", dsn="oracle.fiap.com.br:1521/orcl")
 
 conn = conectar()
 cursor = conn.cursor()
