@@ -29,11 +29,5 @@ Este projeto gerencia o sistema de pontuação e recompensas para usuários, reg
     conn = oracledb.connect(user="seu_usuario", password="sua_senha", dsn="oracle.fiap.com.br:1521/orcl")
     ```
 
-3. Execute o script:
-
-    ```bash
-    python sistema_pontuacao.py
-    ```
-
 O script abrirá um menu interativo para cadastro de usuários, registro de hábitos, consulta de pontos, cadastro e resgate de recompensas, e treinamento do modelo de Machine Learning.
 
